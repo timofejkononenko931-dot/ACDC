@@ -15,7 +15,7 @@ MOV     CL,80H
 CICL: 
 MOV     SI,82H
 MOV     CX,1
-MOV     AL,SI
+MOV     AL,[SI]
 CMP     AL,'.'
 JE      PAR
 PUSH    SI
